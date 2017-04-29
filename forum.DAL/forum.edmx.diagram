@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="aa310a606c434f3386891f65e9c0aafc" Name="Diagram1" ZoomLevel="83">
+        <EntityTypeShape EntityType="forumdatabaseModel.Answer" Width="1.5" PointX="7.5" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="forumdatabaseModel.Like" Width="1.5" PointX="7.5" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="forumdatabaseModel.Question" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="forumdatabaseModel.Role" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="forumdatabaseModel.Tag" Width="1.5" PointX="5.25" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="forumdatabaseModel.UserClaim" Width="1.5" PointX="5.25" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="forumdatabaseModel.UserLogin" Width="1.5" PointX="5.25" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="forumdatabaseModel.User" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="forumdatabaseModel.View" Width="1.5" PointX="7.5" PointY="6.25" IsExpanded="true" />
+        <AssociationConnector Association="forumdatabaseModel.FK_Answers" ManuallyRouted="false" />
+        <AssociationConnector Association="forumdatabaseModel.FK_Answers_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="forumdatabaseModel.FK_Likes" ManuallyRouted="false" />
+        <AssociationConnector Association="forumdatabaseModel.FK_Likes_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="forumdatabaseModel.FK_Questions_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="forumdatabaseModel.FK_Views" ManuallyRouted="false" />
+        <AssociationConnector Association="forumdatabaseModel.FK_Tags_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="forumdatabaseModel.FK_dbo_tUserClaims_dbo_tUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="forumdatabaseModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="forumdatabaseModel.FK_Views_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="forumdatabaseModel.UserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
